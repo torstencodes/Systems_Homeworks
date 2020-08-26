@@ -1,0 +1,8 @@
+GET /blah.txt HTTP/1.1
+Host: localhost:80
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: RAObot
+Accept: text/plain
+Accept-Language: en-US,en;q=0.8
+

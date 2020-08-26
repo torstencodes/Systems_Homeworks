@@ -1,0 +1,49 @@
+Host: os1.csi.miamioh.edu
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+DNT: 1
+Accept: text/html, ,application/xml;q=0.9,image/webp,image/apng,*/*
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: _ga=GA1.2.486049154.1559230408
+If-None-Match: "21-59029c1df6131"
+
+"Employee name"	"Customer Information"	Sales
+"Maria Garcia"	"Armored Trunk Manufacturing Company"	2827
+"Ron Mc\"Gee"	"Acme Fresh Market"	8385
+"William Johnson"	Airstream	6699
+"William Johnson"	Airstream	77
+Madonna	"Armored Trunk Manufacturing Company"	7813
+"James Smith"	"AK Steel Holding"	3476
+"Mary Jane Lee"	Airstream	5261
+"James Smith"	"General Electric - Aviation"	6479
+"Mary Jane Lee"	"General Electric - Aviation"	2912
+Madonna	"Acme Fresh Market"	3185
+"Ron Mc\"Gee"	"Abercrombie & Fitch"	4072
+"Maria Garcia"	"Abercrombie & Fitch"	15061
+"Mary Jane Lee"	"Acme Fresh Market"	7423
+"Ron Mc\"Gee"	"Abercrombie & Fitch"	3834
+"William Johnson"	"Procter & Gamble"	4374
+"Mary Jane Lee"	"Acme Fresh Market"	6463
+"Maria Garcia"	Airstream	16912
+"Bob Smith"	"Acme Fresh Market"	7331
+"Mary Jane Lee"	"Procter & Gamble"	7134
+"Ron Mc\"Gee"	"Armored Trunk Manufacturing Company"	1363
+"James Smith"	"General Electric - Aviation"	3945
+"Mary Jane Lee"	"AK Steel Holding"	8864
+"Mary Jane Lee"	"Armored Trunk Manufacturing Company"	414
+"Mary Jane Lee"	"Abercrombie & Fitch"	1137
+"William Johnson"	"General Electric - Aviation"	7228
+"Bob Smith"	"Armored Trunk Manufacturing Company"	5453
+"Mary Jane Lee"	"Acme Fresh Market"	2449
+"James Smith"	"Abercrombie & Fitch"	62
+"Bob Smith"	"Procter & Gamble"	8144
+"James Smith"	"Armored Trunk Manufacturing Company"	620
+"William Johnson"	"Abercrombie & Fitch"	7517
+"Ron Mc\"Gee"	"Abercrombie & Fitch"	2952
+"William Johnson"	"Abercrombie & Fitch"	6702
+"Maria Garcia"	"Armored Trunk Manufacturing Company"	12330
+Madonna	"Procter & Gamble"	3915
+Madonna	"Procter & Gamble"	6669

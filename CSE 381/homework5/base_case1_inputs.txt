@@ -1,0 +1,10 @@
+GET /cgi-bin/exec?cmd=echo&args=-e%20%22hello%5C%5Cn%22%20%22world%22 HTTP/1.1
+Host: localhost:80
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+DNT: 1
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8
+

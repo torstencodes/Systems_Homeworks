@@ -1,0 +1,30 @@
+"trans=reset" "All stocks reset"
+"run" 1 1
+"trans=create&stock=0x01" "Stock 0x01 created"
+"trans=create&stock=0x02" "Stock 0x02 created"
+"trans=create&stock=0x03" "Stock 0x03 created"
+"trans=create&stock=0x04" "Stock 0x04 created"
+"run" 4 1
+"trans=create&stock=0x01" "Stock 0x01 already exists"
+"trans=create&stock=0x02" "Stock 0x02 already exists"
+"trans=create&stock=0x03" "Stock 0x03 already exists"
+"trans=create&stock=0x04" "Stock 0x04 already exists"
+"run" 4 1
+"trans=up&stock=0x01&amount=200" "Stock price updated"
+"trans=down&stock=0x01&amount=200" "Stock price updated"
+"trans=up&stock=0x01&amount=100" "Stock price updated"
+"trans=up&stock=0x02&amount=200" "Stock price updated"
+"trans=down&stock=0x02&amount=200" "Stock price updated"
+"trans=up&stock=0x02&amount=200" "Stock price updated"
+"trans=up&stock=0x03&amount=20.25" "Stock price updated"
+"trans=down&stock=0x03&amount=20.25" "Stock price updated"
+"trans=up&stock=0x03&amount=10" "Stock price updated"
+"trans=up&stock=0x04&amount=0.25" "Stock price updated"
+"trans=down&stock=0x04&amount=0.25" "Stock price updated"
+"trans=up&stock=0x04&amount=1" "Stock price updated"
+"run" 12 100
+"trans=status&stock=0x01" "Stock 0x01: $10000.00"
+"trans=status&stock=0x02" "Stock 0x02: $20000.00"
+"trans=status&stock=0x03" "Stock 0x03: $1000.00"
+"trans=status&stock=0x04" "Stock 0x04: $100.00"
+"run" 4 10
