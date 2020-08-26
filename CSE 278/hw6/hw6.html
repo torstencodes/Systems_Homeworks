@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Database</title>
+  </head>
+  
+  <body>
+    <h1>Movie Database</h1>
+    <h3>Wonderful movies for you to watch.</h3>
+
+    <p>Use the from below to search our movie database in different ways.
+        You can specify one or more of the inputs to restrict your search to
+        the movies you are looking for.</p>
+    
+    <form action="hw6.cgi" method="post" target="result">
+      <p>Enter partial title of the movie you are looking for
+	<input type="text" name="title"></p>
+
+      <p>Enter the genre of the movies you are looking for
+	<input type="text" name="genre"></p>
+      
+      <p>Enter the earliest year to restrict your search
+	<input type="text" name="genre"></p>
+      
+      <p>Enter the latest year to restrict your search
+	<input type="text" name="genre"></p>
+ 
+      <p><input type="submit" value="Find movies"></p>
+    </form>      
+    <hr>
+    <h3>Response from your previous query is displayed below:</h3>
+    <iframe name="result" style="border: 0 none; width: 100%;" height="500"></iframe>      
+  </body>
+</html>

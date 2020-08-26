@@ -1,0 +1,26 @@
+/** A simple CSS to make movie listings look nicer */
+
+.movie {
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+}
+
+div > p {
+    margin: 3px;
+}
+
+.movie:nth-of-type(even) {
+    background-color: #eee;
+}
+
+.title {
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #333;
+    padding: 0px 8px 0px 8px;
+    color: white;
+    font-weight: bold;
+}
+
